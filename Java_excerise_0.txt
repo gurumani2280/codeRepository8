@@ -1,0 +1,5 @@
+1. Print numbers from 1 to 20
+2. Print even numbers till 20
+3. Print odd numbers till 20
+4. Check if a given number is a prime number or not
+5. Print the sum of numbers from 1 to 20 
