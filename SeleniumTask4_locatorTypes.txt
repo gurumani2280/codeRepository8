@@ -1,0 +1,6 @@
+practise locator types
+
+1.Identify all the elements in the HRM,saucedemo,basichtml(local html) using XPATH.
+2.Identify all the elements in the HRM,saucedemo,basichtml(local html) using CCSelector.
+3.Identify and click skills checkbox in the local html.
+4.Identify and work on drop downs using XPATH or CCSelector

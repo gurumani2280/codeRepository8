@@ -1,0 +1,35 @@
+1. navigate to below url
+https://www.saucedemo.com/
+
+2. enter username  -- secret_sauce
+
+3. enter password  -- secret_sauce
+
+click login button
+
+4 . click on logout
+
+try below scenario with other valid users -- locked_out_user problem_user performance_glitch_user
+
+Scenario 2
+
+1. navigate to below url
+https://www.saucedemo.com/
+
+2. enter Invalid username  -- 
+
+3. enter Invalid password  -- 
+
+click login button
+
+4 . capture error message - 
+Invalid credentials
+
+
+Scenario 3
+
+Do e2e checkout of items after adding to cart.
+
+
+
+

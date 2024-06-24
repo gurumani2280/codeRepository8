@@ -1,0 +1,29 @@
+1. navigate to below url
+	https://demo.automationtesting.in/Index.html
+	click skip sign in button 
+
+
+
+2. navigate to below url
+	https://demo.automationtesting.in/Index.html
+	2. enter dummy email 
+	3. click on arrow button
+
+3. navigate to below url
+	https://demo.automationtesting.in/Register.html
+	identify each element and interact (click / sendkey) 
+
+4. navigate to below url
+	https://demo.automationtesting.in/Register.html
+	work on selecting autralia country, (Not a select drop down)
+
+
+
+
+
+	
+	
+
+
+
+

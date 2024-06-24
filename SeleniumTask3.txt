@@ -1,0 +1,15 @@
+1. navigate to below url
+https://react-redux.realworld.io/#/login
+
+	2. enter Invalid username  -- 
+
+	3. enter Invalid password  -- 
+
+	click login button
+
+	4 . capture error message - 
+	
+
+
+
+

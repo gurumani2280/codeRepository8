@@ -1,0 +1,30 @@
+1. navigate to below url
+https://opensource-demo.orangehrmlive.com
+
+2. enter username  -- Admin
+
+3. enter password  -- admin123
+
+click login button
+
+4 . click on logout
+
+
+Scenario 2
+
+1. navigate to below url
+https://opensource-demo.orangehrmlive.com
+
+2. enter username  -- Admin-invalid
+
+3. enter password  -- admin123-invalid
+
+click login button
+
+4 . capture error message - 
+Invalid credentials
+
+doubts : done using XPath
+radio button selection
+
+

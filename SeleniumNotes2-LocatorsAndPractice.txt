@@ -1,0 +1,111 @@
+locator in selenium/ ways to indentify webElements/8 methods of By class
+id 
+name
+linkText
+partialLinkText
+cssSelector
+xPath
+className
+tagName
+
+
+CSS selector syntax
+----------------------------
+tagname[attribute='value']
+tagname.classname
+tagname#id
+tagname[attribute='value']:nth-child[indexvalue]
+
+parentcssselector>childcssselector
+eg:.form_group>input[id='user-name']
+
+tagname is not mandatory
+
+Appending Classes .class1.class2.class3 -­‐>Until we find a unique element
+
+Using wildcards in CSS Selectors:
+“^” -­‐> Represents the starting text
+“$” -­‐> Represents the ending text
+“*” -­‐> Represents the text contained
+Syntax: tag[attribute<specialcharacter>=’value’]
+Examples:
+input[class='inputs']            -­‐> exact matching 
+input[class^='inputs']           -­‐> represents starting of the text
+input[class='displayed-­‐class']  -­‐> exact matching 
+input[class$='class']            -­‐> represents starting of the text
+input[class*='displayed-­‐class'] -­‐> Represents the text contained
+
+
+==============================================
+xpath
+/html/body/form/table/tbody/tr[5]/td[2]/textarea  --> absolute xpath <-- 
+
+----------------------
+//tagname
+//tagname[@attribute='value']
+//tagname[@attribute='value'][indexing]
+
+parentxpath/childxpath 
+(//table/a)[parent is table, child is tag a]
+In the entire html it will search for the table and inside the table it will search for immediate child tag a
+
+eg: //table//a
+In the entire html it will search for the table and inside the table it will search for any child, not just immediate child tag a
+
+//*[@id="address"] -- go for all the tag and check in all the element having id = address
+//textarea[@id='address'] --- go and search for text area tag having id = address
+
+================------------------------===========================
+
+<input type="text" name="username" placeholder="username">
+
+tagname     = input
+attributes  = type, name, 	placeholder
+values      = text  username	username
+
+
+<input type="checkbox" name="skill" value="selenium">
+
+tagname      = input
+attributes   = type, 	name, 		value
+values       = checkbox  skill		selenium
+
+
+<input type="checkbox" name="skill" value="java">
+
+tagname     = input
+attributes  = type, 	name, 		value
+values      = checkbox  skill		java
+
+
+<textarea id="address" name="address" rows="5" cols="20"></textarea>
+
+tagname     = textarea
+attributes  = id, 		name, 		
+values      = address    	address	
+
+
+<a href="http://www.google.com" title="googleLink">google</a>
+
+tagname     = a
+attributes  = href, 			title, 		
+values      = http://www.google.com  	googleLink	
+visible text= google
+//tagName[text()='text'] -- syntax  -- actual xpath//a[text()='google']
+
+
+https://demo.guru99.com/V4/
+//a[contains(text(),'LOGIN')]
+
+https://www.irctc.co.in/nget/train-search
+//img[contains(@src,'testing-logo-1.png')]
+
+
+<a href="/web/index.php/auth/logout" role="menuitem" class="oxd-userdropdown-link">Logout</a>
+tagname=a
+attributes=     href                        role           class
+value=     /web/index.php/auth/logout       menuitem      oxd-userdropdown-link
+visible text=Logout
+since this is a tag that is link,so visible text is also known as link text
+
+
