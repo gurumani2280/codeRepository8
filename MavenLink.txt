@@ -1,0 +1,11 @@
+https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+
+https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html#using-suite-xml-files
+Using Suite XML Files
+
+
+https://www.baeldung.com/maven-java-version#:~:text=The%20Maven%20compiler%20accepts%20this,them%20is%20the%201.6%20version.
+<properties>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
+</properties>

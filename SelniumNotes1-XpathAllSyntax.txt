@@ -1,0 +1,30 @@
+https://www.scientecheasy.com/2019/08/xpath-axes.html/
+
+https://demo.automationtesting.in/Register.html
+
+Syntax
+//tagname[@attribute='value'] or //*[@attribute='value']
+//input[@placeholder='First Name'] or //*[@placeholder='First Name']
+not advisable to use *, use tagname 
+
+text - //tagname[text()='visibleText']
+//label[text()='Full Name* ']
+
+contains
+//label[contains(text(),'Full Name')]
+
+index
+//label[2]
+
+OR & AND
+//*[@placeholder='First Name' and @ng-model="FirstName"]
+//*[@placeholder='First Name' or @ng-model="FirstName"]
+
+parent - Child - ancestor
+//form[@id='basicBootstrapForm']/child::div    -- //form[@id='basicBootstrapForm']/div
+//form[@id='basicBootstrapForm']/parent::div   -- //form[@id='basicBootstrapForm']/..
+//form[@id='basicBootstrapForm']/ancestor::div
+
+following- sibling - preceding
+//input[@id='checkbox1']//following-sibling::label    -- //input[@id='checkbox1']/../label
+//label[text()=' Cricket ']//preceding-sibling::input -- //label[text()=' Cricket ']/../input
