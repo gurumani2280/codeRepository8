@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Old report backed up to folder D:\Development\Eclipse-Workspaces\WithRituRaj\TestFramework2\Test-Reports//20May24_20.17.13.198//]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-05-20T20:17:13 IST" name="Suite" finished-at="2024-05-20T20:17:31 IST" duration-ms="17620">
+    <groups>
+    </groups>
+    <test started-at="2024-05-20T20:17:13 IST" name="Test" finished-at="2024-05-20T20:17:31 IST" duration-ms="17620">
+      <class name="com.tests.SauceInvalidLoginTest">
+        <test-method is-config="true" signature="preSuite()[pri:0, instance:com.tests.SauceInvalidLoginTest@393671df]" started-at="2024-05-20T20:17:13 IST" name="preSuite" finished-at="2024-05-20T20:17:13 IST" duration-ms="483" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Old report backed up to folder D:\Development\Eclipse-Workspaces\WithRituRaj\TestFramework2\Test-Reports//20May24_20.17.13.198//]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preSuite -->
+        <test-method is-config="true" signature="init()[pri:0, instance:com.tests.SauceInvalidLoginTest@393671df]" started-at="2024-05-20T20:17:13 IST" name="init" finished-at="2024-05-20T20:17:22 IST" duration-ms="8507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:com.tests.SauceInvalidLoginTest@393671df]" started-at="2024-05-20T20:17:22 IST" name="invalidLoginTest" finished-at="2024-05-20T20:17:25 IST" duration-ms="2877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SauceInvalidLoginTest@393671df]" started-at="2024-05-20T20:17:25 IST" name="tearDown" finished-at="2024-05-20T20:17:26 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.SauceInvalidLoginTest -->
+      <class name="com.tests.SauceValidLoginTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.tests.SauceValidLoginTest@1ab3a8c8]" started-at="2024-05-20T20:17:13 IST" name="init" finished-at="2024-05-20T20:17:26 IST" duration-ms="13087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:com.tests.SauceValidLoginTest@1ab3a8c8]" started-at="2024-05-20T20:17:26 IST" name="invalidLoginTest" finished-at="2024-05-20T20:17:30 IST" duration-ms="3942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tests.SauceValidLoginTest@1ab3a8c8]" started-at="2024-05-20T20:17:30 IST" name="tearDown" finished-at="2024-05-20T20:17:31 IST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.SauceValidLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
