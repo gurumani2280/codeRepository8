@@ -1,0 +1,12 @@
+https://www.w3schools.com/java/java_files.asp
+https://www.w3schools.com/java/java_files_create.asp
+https://www.programiz.com/java-programming/examples/append-text-existing-file
+
+https://www.javatpoint.com/java-bufferedwriter-class
+
+https://www.w3schools.com/java/java_files_read.asp
+https://www.geeksforgeeks.org/different-ways-reading-text-file-java/
+
+https://www.w3schools.com/java/java_files_delete.asp
+
+https://www.geeksforgeeks.org/file-handling-in-java/
